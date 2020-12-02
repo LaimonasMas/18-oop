@@ -2,6 +2,7 @@ class Pet {
     constructor(name, furColor) {
         this.name = name;
         this.fur = furColor;
+        this.voice = 'Miaaau';
     }
 
     introduce() {

@@ -1,3 +1,4 @@
+import { Pet } from '../animals/Pet.js';
 import { SingleDog } from './SingleDog.js';
 
 const rexius = new SingleDog('Rexas', 'rudas', 'Vokieciu aviganis');
@@ -17,6 +18,9 @@ console.log(rexius.lovedPeople);
 rexius.addLovedPerson('Zymantas');
 rexius.addLovedPerson('Andrejus');
 
+const grazuoliukas = new Pet('Katyte');
+
+grazuoliukas.sound();
 
 
 /*
