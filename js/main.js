@@ -1,11 +1,14 @@
-import { Dog } from './animals/Dog.js';
-// import { Cat } from './animals/Cat.js';
+import { Parrot } from './animals/Parrot.js';
+import { Chicken } from './animals/Chicken.js';
 
-const rikis = new Dog('Rikis', 'baltas');
-// const rainis = new Cat('Rainis', 'juodas')
+const kapitonas = new Parrot('Kapitonas');
+kapitonas.introduce()
 
-rikis.sound();
-// rainis.sound();
+const jack = new Parrot('Jack', 'juodas');
+jack.introduce();
 
-rikis.introduce();
-// rainis.introduce();
+const cypsius = new Chicken('Cypsius', 'geltonas');
+cypsius.introduce();
+
+const pypsius = new Chicken('Pypsius');
+pypsius.introduce();
